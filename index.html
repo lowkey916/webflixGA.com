@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WEBFLIX </title>
+  <meta name="description" content="Demo single-file movie listing site" />
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">WF
+</div>
+      <div>
+        <div class="title">WEBFLIX</div>
+        <div class="subtitle">Movies translated to Kinyarwanda </div>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div class="search">
+        <input id="searchInput" placeholder="Search movies, actors..." />
+      </div>
+      <nav>
+        <a href="#about">whatsapp channel ................. </a>
+        <a href="tel:+250794323803">text to us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="controls">
+      <div class="categories" id="categories"></div>
+    </div>
+
+    <section class="grid" id="grid"></section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="player">
+      <header>
+        <div id="playerTitle"></div>
+        <button id="closeBtn">✕</button>
+      </header>
+      <div id="playerArea"></div>
+      <div class="info">
+        <div id="playerDesc"></div>
+      </div>
+    </div>
+  </div>
+
+  <a class="whatsapp" href="https://chat.whatsapp.com/Ec9SR5A4POYEtaSb1Dosh4">Whatsapp channel uploads</a>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
